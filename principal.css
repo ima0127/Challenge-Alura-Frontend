@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #F5F5F5;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 5%;
+    box-shadow: 0 0 6px 0;
+}
+.logo{
+    margin-right: auto;
+}
+.logo a i{
+    font-size: 1em;
+}
+.logo a{
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline;
+    padding: 0px 20px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+    color: #0088a9;
+}
+
+
+.presentacion{
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+    margin: 150px auto;
+
+}
+
+
+
+.presentacion h2{
+    font-size: 2.5em;
+    padding-bottom: 5px;
+
+}
+
+.presentacion p{
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+
+.presentacion .foto{
+    border-radius: 150px;
+    width: 35%;
+    height: 35%;
+    float: right;
+    margin-top: -80px;
+}
+
+
+.presentacion li{
+    display: inline;
+    justify-content: flex-start;
+    padding-left: 30px;
+    
+}
+
+.presentacion li a{
+    text-decoration: none;
+    color: #000000;
+
+}
+.presentacion li a i{
+    color: #494848fa;
+    padding-left: 3px;
+
+}
+ /* seccion sobre mi */
+.sobre-mi{
+    width: 100%;
+    height: 300px;
+    background: #EAF2FD ;
+    padding: 100px;
+    margin:0px auto ;
+    display: block;
+    align-items: center;
+}
+
+.sobre-mi h2{
+    margin-bottom: 15px;
+}
+/* hobbies desing */
+.hobbies{
+    width: 100%;
+    height: 300px;
+    max-width: 900px;
+    justify-content: center;
+    padding: 50px 0 0 0;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: -5%;
+}
+
+.hobbies h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.hobbies .box-play{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: #FFFFFF;
+    justify-content: space-between;
+    margin-left: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.hobbies .box-play i{
+    color: #0224e6c4;
+    font-size: 2em;
+    position: relative;
+    top: 55px;
+    left: 10px;
+}
+
+.hobbies .box-play p{
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    
+}
+
+.hobbies .box-play:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
+/* skills desing */
+
+.skills{
+    width: 100%;
+    height: 300px;
+    max-width: 450px;
+    justify-content: center;
+    padding: 50px 0 0 0;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.skills h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.skills .cajas{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: #FFFFFF;
+    justify-content: space-between;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.skills .cajas i{
+    color: rgba(0, 0, 255, 0.747);
+    font-size: 2em;
+    position: relative;
+    top: 55px;
+    left: 10px;
+}
+
+.skills .cajas p{
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+}
+
+.skills .cajas:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
+/* seccion de formacion */
+
+.formacion{
+    width: 100%;
+    height: 500px;
+    background:#EAF2FD ;
+    display:block;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.formacion h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.formacion .box{
+    position: relative;
+    left: 13%;
+    display: inline-block;
+    justify-content:space-between;
+    max-width: 800px;
+    margin-left: 60px
+}
+
+.formacion .box img{
+    margin-bottom: 10px;
+}
+
+.formacion .box p{
+    text-align: center;
+    font-weight: bold;
+} 
+
+/* seccion de experiencia */
+.xp{
+    width: 100%;
+    display: inline-block;
+    height: 470px;
+}
+.xp h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.wall{
+   width: 100px;
+}
+
+
+.encriptador{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.encriptador .img-encrypt{
+    width: 800px;
+    position: relative;
+    margin: 0 30px;
+}
+
+.encriptador .descripcion{
+    position: relative;
+    float: right;
+    top: 150px;
+    line-height: 20px;
+}
+
+.encriptador .descripcion button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.encriptador .descripcion .btn-blue{
+    border: 1px solid #2A7AE4;
+}
+
+.encriptador .descripcion .btn-demo{
+    background: #2A7AE4;
+    color: #F5F5F5;
+    border: none;
+}
+
+/* seccion de contacton */
+
+.contacto{
+    width: 100%;
+    background: #EAF2FD;
+    padding: 15px;
+    margin-bottom: 20px;
+
+}
+
+.contacto img{
+    margin: 10px 30px;
+    width: 600px;
+    float: left;
+}
+
+
+.contacto form .cont{
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 500px;
+}
+
+textarea{
+    resize: none;
+}
+
+textarea:placeholder-shown{
+    padding:5px 5px;
+}
+
+.contacto form .send{
+    background: #2A7AE4;
+    color: #F5F5F5;
+    margin: 5px 0;
+    width: 100px;
+    padding: 10px;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+.contacto form .send:hover{
+    transition: 400ms;
+    transform: scale(1.1);
+}
+
+/* seccion de footer */
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background: #F5F5F5;
+}
+
